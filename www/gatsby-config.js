@@ -1,12 +1,13 @@
 require("dotenv").config();
 
 const siteMetadata = {
-  title: `Novela by Narative`,
-  name: `Narative`,
-  siteUrl: `https://novela.narative.co`,
-  description: `This is my description that will be used in the meta tags and important for search results`,
+  title: `Positive Ko | Blog`,
+  name: `Positive Ko`,
+  siteUrl: `https://positiveko.netlify.app`,
+  description: `스스로 얼마나 부족한지 고해성사하는 주니어 개발자의 회고 블로그.`,
+  image: "https://avatars.githubusercontent.com/u/69200669?v=4",
   hero: {
-    heading: `Welcome to Novela, the simplest way to start publishing with Gatsby.`,
+    heading: `虎視牛行 | 호시우행`,
     maxWidth: 652,
   },
   social: [
