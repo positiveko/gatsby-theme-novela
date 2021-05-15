@@ -2,7 +2,7 @@
 title: tip | Custom VSCode Snippet 만들기
 author: Positive Ko
 date: 2021-05-16
-hero: ./images/hero.gif
+hero: ./images/hero.jpeg
 excerpt: 코드 작성 시간을 효율적으로 줄여주는 vscode의 단축키를 만들어봅니다.
 slug: customize-vscode-snippets
 ---
@@ -12,8 +12,8 @@ slug: customize-vscode-snippets
 저는 똑같은 코드를 반복해서 작성하거나, 반복적인 마우스 클릭을 싫어하는 나태지옥에 빠진 사람입니다...
 그래서 취미는 단축키 외우기, 알프레드(Alfred: mac용 생산성 높여주는 앱)에 mdn, google, naver map 검색 서치 쿼리 같은 걸 만들어 두기도 하고, 새로운 프로젝트 폴더를 만들 때마다 터미널 alias도 만들어서 한 단어만 치면 바로 작업에 들어갈 수 있도록 해두는 편입니다...
 그러던 중 vscode에도 단축키를 더 만들어주고 싶다는 생각이 들어 찾아보니 어렵지 않더라고요. 저와 같은 귀찮은 걸 싫어하시는 분들을 위해 소개합니다.
-<br>
-<br>
+
+
 
 
 ### 어떨 때 만들면 좋을까?
@@ -23,8 +23,8 @@ slug: customize-vscode-snippets
 - for loop과 같은 단순 폼을 빠르게 작성하고 싶을 때,
 
 등의 상황에서 유용하게 쓸 수 있습니다.😇
-<br>
-<br>
+
+
 ## 1. 작성하기
 
 <div className="Image__Small">
@@ -74,7 +74,7 @@ slug: customize-vscode-snippets
 title: tip | Custom VSCode Snippet 만들기
 author: Positive Ko
 date: 2021-05-16
-hero: ./images/hero.gif
+hero: ./images/hero.jpeg
 excerpt: 코드 작성 시간을 효율적으로 줄여주는 vscode의 단축키를 만들어봅니다.
 slug: customize-vscode-snippets
 ---
@@ -93,7 +93,7 @@ slug: customize-vscode-snippets
       "title: ${1:}",
       "author: Positive Ko",
       "date: 2021-${2:}-${3:}",
-      "hero: ./images/hero.jpg",
+      "hero: ./images/hero.jpeg",
       "excerpt: ${4:}",
       "slug: ${5:}",
       "---"
@@ -115,7 +115,7 @@ slug: customize-vscode-snippets
 그럼 아래 그림처럼 사용할 수 있게 됩니다.
 
 
-<div className="Image__Large">
+<div className="Image__Medium">
   <img
     src="./images/detail.gif"
     title="detail"
@@ -158,11 +158,11 @@ vscode에는 이미 다양한 스니펫 익스텐션이 많습니다.
 - jsx와 tsx에 적용: javascriptreact와 같이 끝에 react를 붙이면 됩니다.
 - TM_FILENAME_BASE: 파일의 이름을 그대로 받아오기 위해 사용합니다. 그러면 다음과 같이 적용할 수 있습니다.
   
-<div className="Image__Small">
+<div className="Image__Medium">
   <img
-    src="./images/hero.gif"
-    title="hero"
-    alt="hero"
+    src="./images/react.gif"
+    title="react"
+    alt="react"
   />
 </div>
 
@@ -181,7 +181,7 @@ vscode에는 이미 다양한 스니펫 익스텐션이 많습니다.
 
 이런 식으로 미리 작성해두면 매우 편합니다.
 
-<br><br>
+
 
 이상입니다.
 
